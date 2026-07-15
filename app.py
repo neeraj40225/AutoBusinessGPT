@@ -17,7 +17,7 @@ import streamlit as st
 page_bg_color = '''
 <style>
 [data-testid="stAppViewContainer"] {
-    background-color: #F0F2F6; /* Change this hex code to whatever color you want */
+    background-color: #1E1E24; /* Change this hex code to whatever color you want */
 }
 </style>
 '''
