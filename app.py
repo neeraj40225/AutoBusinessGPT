@@ -13,6 +13,16 @@ import time
 
 import pandas as pd
 import streamlit as st
+  # --- CUSTOM BACKGROUND COLOR ---
+page_bg_color = '''
+<style>
+[data-testid="stAppViewContainer"] {
+    background-color: #1E1E24; /* Change this hex code to whatever color you want */
+}
+</style>
+'''
+st.markdown(page_bg_color, unsafe_allow_html=True)
+# -------------------------------
 
 from core.config import BusinessType, settings
 from dashboard import components, results
