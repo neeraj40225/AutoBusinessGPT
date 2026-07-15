@@ -184,7 +184,7 @@ class LLMConfig:
     """Google Gemini settings (google-genai SDK)."""
 
     api_key: str = os.getenv("GEMINI_API_KEY", "")
-    model: str = os.getenv("GEMINI_MODEL", "gemini-2.0-flash")
+    model: str = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
     temperature: float = _env_float("GEMINI_TEMPERATURE", 0.2)
     max_output_tokens: int = _env_int("GEMINI_MAX_TOKENS", 2048)
     timeout_seconds: int = _env_int("GEMINI_TIMEOUT", 60)
