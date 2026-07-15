@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.env
+data/uploads/*
+data/processed/*
+data/reports/*
+data/*.db
+models/vector_store/*
+logs/*.log
+!.gitkeep
+.venv/
+venv/
